@@ -1,0 +1,61 @@
+Client_ID,Country,Service_Line,Engagement_Rate,Response_Time_Hours,Leads_Converted,Satisfaction_Score,Revenue_Last_Year_EUR,Churn_Risk
+C0001,Spain,Public Health NGO,0.579,41.0,10,6.3,180619.48,0
+C0002,Denmark,Home Care Provider,0.728,15.2,6,8.6,478748.67,0
+C0003,Sweden,Mental Health Services,0.562,13.3,8,7.6,414824.58,0
+C0004,Portugal,Public Health NGO,0.617,26.7,3,9.4,265753.15,0
+C0005,Portugal,Mental Health Services,0.691,19.3,10,8.2,537759.49,0
+C0006,Ireland,Mental Health Services,0.721,27.2,16,8.3,203702.24,0
+C0007,Spain,Public Health NGO,0.69,32.5,9,7.7,80000.0,0
+C0008,Sweden,Mental Health Services,0.736,20.1,6,8.6,581322.84,0
+C0009,Italy,Primary Care Clinic,0.676,22.5,10,8.3,751461.29,0
+C0010,Spain,Diagnostics Lab,0.588,8.9,11,8.4,414205.62,0
+C0011,Netherlands,Home Care Provider,0.72,13.4,5,7.5,203564.75,0
+C0012,Belgium,Telemedicine Provider,0.737,5.5,11,7.7,567189.95,0
+C0013,Denmark,Diagnostics Lab,0.531,11.3,6,6.8,904106.37,0
+C0014,Denmark,Primary Care Clinic,0.621,9.6,2,8.2,959073.26,0
+C0015,Denmark,Rehabilitation Center,0.586,26.3,6,8.6,430852.85,0
+C0016,Denmark,Diagnostics Lab,0.655,11.9,7,7.3,536960.78,0
+C0017,Netherlands,Mental Health Services,0.69,11.6,5,7.5,272422.96,0
+C0018,France,Telemedicine Provider,0.798,5.3,17,8.5,547663.39,0
+C0019,Ireland,Diagnostics Lab,0.59,13.9,14,7.2,552750.01,0
+C0020,Portugal,Rehabilitation Center,0.661,27.9,8,8.5,233508.95,0
+C0021,Netherlands,Public Health NGO,0.684,46.1,16,6.0,441846.78,0
+C0022,Germany,Diagnostics Lab,0.598,30.4,8,6.8,1272424.09,0
+C0023,France,Telemedicine Provider,0.782,8.2,18,7.5,858768.86,0
+C0024,Belgium,Home Care Provider,0.614,12.1,10,5.7,296360.94,0
+C0025,Denmark,Rehabilitation Center,0.625,11.5,7,6.8,493367.98,0
+C0026,Sweden,Rehabilitation Center,0.623,23.5,8,6.8,452640.47,0
+C0027,Portugal,Primary Care Clinic,0.616,11.3,15,7.4,557770.68,0
+C0028,Ireland,Mental Health Services,0.714,16.0,8,8.8,641926.75,0
+C0029,Netherlands,Home Care Provider,0.627,13.6,11,7.4,552286.39,0
+C0030,Portugal,Home Care Provider,0.661,15.6,7,6.9,575894.21,0
+C0031,Portugal,Diagnostics Lab,0.654,17.4,2,7.6,803819.1,0
+C0032,Italy,Home Care Provider,0.691,17.1,11,8.7,490897.25,0
+C0033,Spain,Home Care Provider,0.707,15.5,12,7.1,209866.96,0
+C0034,Netherlands,Mental Health Services,0.673,13.3,6,7.0,402645.5,0
+C0035,Ireland,Public Health NGO,0.61,15.3,13,8.0,155864.05,0
+C0036,Spain,Mental Health Services,0.674,15.6,7,7.6,233380.86,0
+C0037,Ireland,Telemedicine Provider,0.632,7.1,7,8.1,1068281.95,0
+C0038,Ireland,Rehabilitation Center,0.549,36.9,11,7.3,699835.79,0
+C0039,Italy,Rehabilitation Center,0.557,22.6,11,7.9,603614.54,0
+C0040,Sweden,Primary Care Clinic,0.63,19.4,5,6.8,517502.84,0
+C0041,France,Home Care Provider,0.688,14.0,8,7.8,735218.94,0
+C0042,Denmark,Telemedicine Provider,0.687,5.1,10,7.6,547795.26,0
+C0043,Denmark,Home Care Provider,0.634,12.2,10,6.6,464535.13,0
+C0044,Germany,Primary Care Clinic,0.791,11.6,10,7.0,301732.57,0
+C0045,Spain,Home Care Provider,0.635,30.8,5,8.2,502057.57,0
+C0046,Belgium,Home Care Provider,0.712,12.7,10,7.6,438812.69,0
+C0047,Portugal,Home Care Provider,0.595,20.9,14,6.6,254387.18,0
+C0048,Ireland,Rehabilitation Center,0.636,16.6,6,7.5,343356.32,0
+C0049,Sweden,Diagnostics Lab,0.553,16.8,5,8.2,603484.23,0
+C0050,Denmark,Rehabilitation Center,0.626,24.4,18,5.8,719295.35,0
+C0051,Denmark,Telemedicine Provider,0.809,6.9,10,7.1,779588.07,0
+C0052,France,Home Care Provider,0.539,16.1,8,6.5,430305.94,0
+C0053,Germany,Diagnostics Lab,0.65,10.4,7,8.8,688232.46,0
+C0054,Portugal,Diagnostics Lab,0.637,14.5,10,7.8,634157.08,0
+C0055,Portugal,Diagnostics Lab,0.578,11.1,8,8.0,574469.0,0
+C0056,Spain,Diagnostics Lab,0.519,8.8,7,6.3,404091.3,0
+C0057,Netherlands,Primary Care Clinic,0.705,9.9,14,7.0,439883.05,0
+C0058,France,Primary Care Clinic,0.663,15.2,3,8.1,346710.57,0
+C0059,Denmark,Telemedicine Provider,0.766,11.6,10,8.2,330614.86,0
+C0060,Sweden,Primary Care Clinic,0.702,15.2,14,8.3,573305.3,0
