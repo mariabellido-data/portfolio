@@ -26,3 +26,12 @@ To model how **toxic leadership behaviours** (micromanagement, boundary violatio
 ![Absenteeism by Team](reports/absenteeism_by_team.png)
 
 
+## Dashboard
+
+- Notebook: `notebooks/02_dashboard.ipynb`
+- KPI Summary (PNG): `reports/kpi_summary.png`
+- Correlations Heatmap (PNG): `reports/correlations_heatmap.png`
+
+### Quick preview
+![KPI Summary](reports/kpi_summary.png)
+![Correlations Heatmap](reports/correlations_heatmap.png)
