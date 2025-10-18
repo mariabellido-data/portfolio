@@ -20,3 +20,9 @@ To model how **toxic leadership behaviours** (micromanagement, boundary violatio
 2. Compute correlation metrics and KPI summaries
 3. Visualise distributions (Matplotlib)
 4. Export final report for ethical audit case study
+
+![Toxicity distribution](reports/toxicity_distribution.png)
+![Toxicity vs Absenteeism](reports/toxicity_vs_absenteeism.png)
+![Absenteeism by Team](reports/absenteeism_by_team.png)
+
+
