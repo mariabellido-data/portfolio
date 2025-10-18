@@ -1,29 +1,60 @@
-# Leadership Toxicity KPIs
+# Leadership Toxicity KPIs — Workplace Ethics Dashboard
 
-This project generates **synthetic workplace data** to analyse the relationship between toxic supervision, motivation, and absenteeism.  
-It is part of a broader portfolio on **ethical auditing of workplace performance and leadership accountability**.
+![KPI Summary](reports/kpi_summary.png)
 
-## Structure
-- **data/** — synthetic datasets  
-- **scripts/** — Python code to generate and analyse data  
-- **notebooks/** — exploratory analysis with visualisations  
-- **reports/** — exported charts and metrics summaries  
+This project explores how **toxic leadership behaviours** (micromanagement, boundary violations, emotional volatility) translate into measurable workplace outcomes:  
+absenteeism, declining motivation, and performance loss.  
 
-## Objective
-To model how **toxic leadership behaviours** (micromanagement, boundary violations, emotional volatility) can correlate with:
-- absenteeism rates  
-- performance drop  
-- employee disengagement  
+It is part of my portfolio on **Ethical Auditing of Workplace Performance & Motivation**, connecting behavioural ethics with quantitative analytics.
 
-## Next steps
-1. Generate synthetic dataset (Python, Pandas, NumPy)
-2. Compute correlation metrics and KPI summaries
-3. Visualise distributions (Matplotlib)
-4. Export final report for ethical audit case study
+---
 
-![Toxicity distribution](reports/toxicity_distribution.png)
-![Toxicity vs Absenteeism](reports/toxicity_vs_absenteeism.png)
+### Key Insights
+- Toxic supervision correlates strongly with absenteeism and reduced motivation.  
+- Performance scores decline proportionally to increases in supervisory toxicity.  
+- Quantitative data can expose leadership patterns that compromise team wellbeing.
+
+---
+
+### Tools & Methods
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
+- Synthetic data generation and exploratory visualisation  
+- KPI and correlation dashboards exported to `/reports/`  
+- Narrative interpretation for ethical accountability frameworks  
+
+---
+
+### Repository Structure
+data/ → synthetic datasets
+scripts/ → Python data generation scripts
+notebooks/ → exploratory and dashboard notebooks
+reports/ → charts, visuals, and exported summaries
+
+![Toxicity distribution](reports/toxicity_distribution.png)  
+![Toxicity vs Absenteeism](reports/toxicity_vs_absenteeism.png)  
 ![Absenteeism by Team](reports/absenteeism_by_team.png)
+
+---
+
+### Ethical Interpretation
+Toxic supervision correlates strongly with absenteeism and declining motivation.  
+While synthetic, the dataset mirrors real workplace patterns: toxic leadership erodes both productivity and morale.  
+By translating these ethical issues into measurable KPIs, the project bridges **data analytics** and **moral accountability**, promoting healthier organizational systems.
+
+---
+
+### Ethical Interpretation
+Toxic supervision correlates strongly with absenteeism and declining motivation.  
+While synthetic, the dataset mirrors real workplace patterns: toxic leadership erodes both productivity and morale.  
+By translating these ethical issues into measurable KPIs, the project bridges **data analytics** and **moral accountability**, promoting healthier organizational systems.
+
+---
+
+### Ethical Interpretation
+Toxic supervision correlates strongly with absenteeism and declining motivation.  
+While synthetic, the dataset mirrors real workplace patterns: toxic leadership erodes both productivity and morale.  
+By translating these ethical issues into measurable KPIs, the project bridges **data analytics** and **moral accountability**, promoting healthier organizational systems.
+
 
 
 
