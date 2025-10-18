@@ -25,10 +25,10 @@ It is part of my portfolio on **Ethical Auditing of Workplace Performance & Moti
 ---
 
 ### Repository Structure
-data/ → synthetic datasets
-scripts/ → Python data generation scripts
-notebooks/ → exploratory and dashboard notebooks
-reports/ → charts, visuals, and exported summaries
+data/ → synthetic datasets  
+scripts/ → Python data generation scripts  
+notebooks/ → exploratory and dashboard notebooks  
+reports/ → charts, visuals, and exported summaries  
 
 ![Toxicity distribution](reports/toxicity_distribution.png)  
 ![Toxicity vs Absenteeism](reports/toxicity_vs_absenteeism.png)  
@@ -36,43 +36,19 @@ reports/ → charts, visuals, and exported summaries
 
 ---
 
-### Ethical Interpretation
-Toxic supervision correlates strongly with absenteeism and declining motivation.  
-While synthetic, the dataset mirrors real workplace patterns: toxic leadership erodes both productivity and morale.  
-By translating these ethical issues into measurable KPIs, the project bridges **data analytics** and **moral accountability**, promoting healthier organizational systems.
-
----
-
-### Ethical Interpretation
-Toxic supervision correlates strongly with absenteeism and declining motivation.  
-While synthetic, the dataset mirrors real workplace patterns: toxic leadership erodes both productivity and morale.  
-By translating these ethical issues into measurable KPIs, the project bridges **data analytics** and **moral accountability**, promoting healthier organizational systems.
-
----
-
-### Ethical Interpretation
-Toxic supervision correlates strongly with absenteeism and declining motivation.  
-While synthetic, the dataset mirrors real workplace patterns: toxic leadership erodes both productivity and morale.  
-By translating these ethical issues into measurable KPIs, the project bridges **data analytics** and **moral accountability**, promoting healthier organizational systems.
-
-
-
-
 ## Dashboard
 
 - Notebook: `notebooks/02_dashboard.ipynb`
 - KPI Summary (PNG): `reports/kpi_summary.png`
 - Correlations Heatmap (PNG): `reports/correlations_heatmap.png`
 
-
 ### Quick preview
 ![KPI Summary](reports/kpi_summary.png)
 ![Correlations Heatmap](reports/correlations_heatmap.png)
 
-
 ---
 
-## Ethical interpretation
+## Ethical Interpretation
 
 The analysis highlights how toxic supervision correlates strongly with absenteeism and declining motivation.  
 While synthetic, the dataset mirrors real workplace dynamics:
