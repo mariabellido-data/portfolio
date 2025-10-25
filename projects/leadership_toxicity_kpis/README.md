@@ -1,61 +1,35 @@
-# Leadership Toxicity KPIs — Workplace Ethics Dashboard
+# Leadership Toxicity KPIs — Ethical Workplace Analytics
 
-![KPI Summary](reports/kpi_summary.png)
+## Project Context
+This project analyses patterns of workplace toxicity across corporate teams, exploring their impact on motivation, absenteeism, and productivity.  
+The dataset is synthetically generated to simulate real scenarios of supervision, leadership, and performance.
 
-This project explores how **toxic leadership behaviours** (micromanagement, boundary violations, emotional volatility) translate into measurable workplace outcomes:  
-absenteeism, declining motivation, and performance loss.  
+## Objectives
+- Analyse the relationship between perceived toxicity and absenteeism.  
+- Identify behavioural patterns by team, department, and leadership style.  
+- Evaluate organisational climate metrics through an ethical, data-driven lens.
 
-It is part of my portfolio on **Ethical Auditing of Workplace Performance & Motivation**, connecting behavioural ethics with quantitative analytics.
+## Project Structure
+leadership_toxicity_kpis/
+│
+├── data/ → synthetic dataset (.csv)
+├── notebooks/ → analytical and visual notebooks
+├── reports/ → exported reports (HTML, PDF, KPI visuals)
+├── scripts/ → data generation script
+└── README.md → project documentation
 
----
+## Generated Reports
+- [Exploratory Analysis (HTML)](reports/01_exploration.html)  
+- [Exploratory Analysis (PDF)](reports/01_exploration.pdf)  
+- [Dashboard Report (HTML)](reports/02_dashboard.html)  
+- [Dashboard Report (PDF)](reports/02_dashboard.pdf)
 
-### Key Insights
-- Toxic supervision correlates strongly with absenteeism and reduced motivation.  
-- Performance scores decline proportionally to increases in supervisory toxicity.  
-- Quantitative data can expose leadership patterns that compromise team wellbeing.
+## Tech Stack
+- Python (pandas, matplotlib, seaborn, numpy)  
+- Jupyter Notebook  
+- Git & GitHub  
+- LaTeX + Pandoc (professional report export)
 
----
-
-### Tools & Methods
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
-- Synthetic data generation and exploratory visualisation  
-- KPI and correlation dashboards exported to `/reports/`  
-- Narrative interpretation for ethical accountability frameworks  
-
----
-
-### Repository Structure
-data/ → synthetic datasets  
-scripts/ → Python data generation scripts  
-notebooks/ → exploratory and dashboard notebooks  
-reports/ → charts, visuals, and exported summaries  
-
-![Toxicity distribution](reports/toxicity_distribution.png)  
-![Toxicity vs Absenteeism](reports/toxicity_vs_absenteeism.png)  
-![Absenteeism by Team](reports/absenteeism_by_team.png)
-
----
-
-## Dashboard
-
-- Notebook: `notebooks/02_dashboard.ipynb`
-- KPI Summary (PNG): `reports/kpi_summary.png`
-- Correlations Heatmap (PNG): `reports/correlations_heatmap.png`
-
-### Quick preview
-![KPI Summary](reports/kpi_summary.png)
-![Correlations Heatmap](reports/correlations_heatmap.png)
-
----
-
-## Ethical Interpretation
-
-The analysis highlights how toxic supervision correlates strongly with absenteeism and declining motivation.  
-While synthetic, the dataset mirrors real workplace dynamics:
-
-- **Supervisor toxicity** shows a positive relationship with **absenteeism days** (Pearson ≈ +0.9), confirming that poor leadership increases employee withdrawal.  
-- **Performance scores** drop as toxicity rises, illustrating measurable productivity loss.  
-- **Motivation** follows a similar trend, revealing the emotional cost of toxic management practices.
-
-From an ethical auditing perspective, these metrics help identify systemic leadership risks that affect not only performance but also psychological safety and retention.  
-The visual dashboards (Seaborn KPIs and correlation heatmap) translate abstract moral issues into quantifiable, reproducible data for accountability frameworks.
+## Author
+**María Bellido** — Data & Operations Portfolio  
+Multilingual Ethical Workplace Auditor | Performance & Motivation Analytics
