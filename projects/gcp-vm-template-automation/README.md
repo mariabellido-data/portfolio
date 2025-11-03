@@ -130,3 +130,24 @@ gcp-vm-template-automation/
 
 ## License
 MIT
+
+---
+
+## Portfolio usage (no-cost)
+
+This project is prepared for deployment on GCP, but you can use it purely as a portfolio artifact **without enabling billing**:
+- Do not enable Billing or Compute Engine if you don’t plan to deploy.
+- Review the scripts in `scripts/` to understand:
+  1) Creating an **instance template** with a metadata **startup-script** (Nginx auto-enabled via systemd).
+  2) Opening an **HTTP firewall rule** targeting the `http-server` tag.
+  3) Deploying via a **Managed Instance Group (MIG)** or **standalone instances**.
+  4) **Cleanup** steps (idempotent).
+- In interviews, you can explain the workflow and reference this repository as evidence of infrastructure practice.
+
+### Learning outcomes
+- Using `gcloud` to create templates and reproducible infrastructure.
+- Auto-enabled services with `systemd`.
+- Homogeneous rollout of **8 identical web servers**.
+- Good practices for cleanup and version control.
+
+> Note: Running the deployment commands **does require billing**. For portfolio purposes, you do not need to run them.
