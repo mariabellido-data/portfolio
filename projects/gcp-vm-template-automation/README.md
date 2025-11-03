@@ -151,3 +151,25 @@ This project is prepared for deployment on GCP, but you can use it purely as a p
 - Good practices for cleanup and version control.
 
 > Note: Running the deployment commands **does require billing**. For portfolio purposes, you do not need to run them.
+
+flowchart LR
+  U[User] -->|HTTP :80| FW[Firewall rule<br/>allow-http]
+  FW --> VMs[Public VM IPs]
+
+  subgraph T["Instance Template (Debian 12 + startup-script)"]
+    SS[systemd enables nginx] --> NG[Nginx]
+  end
+
+  T --> MIG[Managed Instance Group (size = 8)]
+  MIG --> VM1[web-01]
+  MIG --> VM2[web-02]
+  MIG --> VM3[web-03]
+  MIG --> VM4[web-04]
+  MIG --> VM5[web-05]
+  MIG --> VM6[web-06]
+  MIG --> VM7[web-07]
+  MIG --> VM8[web-08]
+
+  VM1 --> P1[index.html]
+  VM8 --> P8[index.html]
+
