@@ -152,8 +152,13 @@ This project is prepared for deployment on GCP, but you can use it purely as a p
 
 > Note: Running the deployment commands **does require billing**. For portfolio purposes, you do not need to run them.
 
+---
+
+## Architecture (diagram)
+
+```mermaid
 flowchart LR
-  U[User] -->|HTTP :80| FW[Firewall rule<br/>allow-http]
+  U[User] -->|HTTP :80| FW[Firewall rule\nallow-http]
   FW --> VMs[Public VM IPs]
 
   subgraph T["Instance Template (Debian 12 + startup-script)"]
@@ -172,4 +177,6 @@ flowchart LR
 
   VM1 --> P1[index.html]
   VM8 --> P8[index.html]
+
+ 
 
