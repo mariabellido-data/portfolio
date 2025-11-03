@@ -1,5 +1,10 @@
 # GCP VM Template & Automated Deployment (8 Web Servers)
 
+> **Executive summary:** Reproducible baseline to create an instance template with a systemd-enabled Nginx startup script and roll out 8 identical web servers via a Managed Instance Group. Includes HTTP firewall and cleanup. Designed for portfolio use with zero-cost reading; deployment commands are optional.
+
+**Key technologies:** Google Cloud Compute Engine · Instance Templates · Managed Instance Groups (MIG) · gcloud CLI · Bash · Debian 12 · Nginx · systemd · HTTP firewall rules.
+
+
 This repo provides a **minimal, reproducible** workflow to:
 - Create an **instance template** with a startup script that enables an auto-start service (Nginx).
 - Deploy **8 identical web servers** either via a **Managed Instance Group (MIG)** or as **standalone instances**.
